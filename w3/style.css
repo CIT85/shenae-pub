@@ -1,0 +1,21 @@
+     html {
+                font-size: 22px
+         }
+            body {
+              
+            background-color:crimson;
+                color: whitesmoke;
+            }
+
+            a {
+                color:aliceblue;
+
+            }
+
+            a:visited {
+                color:lightgray;
+            }
+
+            a:hover, a:active {
+                color:blueviolet;
+            }
