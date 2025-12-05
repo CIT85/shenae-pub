@@ -105,7 +105,20 @@ nav summary {
 }
 
 nav summary::-webkit-details-marker {
-  display: none; /* hides default marker */
+  display: none;
+}
+
+nav summary {
+  cursor: pointer;
+  background: #003;
+  padding: 0.4rem 0.6rem;
+  border-radius: 5px;
+  color: #0fffff;
+  font-weight: bold;
+}
+
+nav details[open] > summary {
+  background: #005;
 }
 
 nav details {
@@ -178,6 +191,8 @@ nav a:focus {
   background-color: #045d6d;
   color: #ffffff;                   
 }
+
+
 
 a {
   color: #35f0ff;
