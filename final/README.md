@@ -71,9 +71,16 @@ I used three types of CSS positioning for decorative/interactive elements:
 
 These positioned elements help highlight important information and improve navigation while staying within the allowed CSS for Phase 2.
 
-## I used *flexbox* in the header and nav, *multicolumn* for text, *grid* for the color palette and important_info page and *media queries* at **601-899 and 900+
+## I used *flexbox* in the header and nav, *multicolumn* for text, *grid* for the color palette and important_info page and *media queries* at **601-899 and 900+**
 - changed my media queries to 481 and 768 to satisfy the standards reccomended by Dave Gray. 
 
 ## Added businesses.html (Big Sur Map) to site
-[x] add to all navigation
+[x] add to all navigation<br>
 [x] add to sitemap page 
+
+## Hero Image Design
+I chose a wide, dramatic aerial photograph of the Big Sur coastline for my hero image because it reflects the tone and theme of the website. The cliffs and ocean also visually connect to the whale migrations described throughout the site.
+
+The hero image appears at the top of my index.html page in a full-width banner. I used `background-size: cover` so the image always fills the hero section, regardless of device or screen size. I set `background-position: center` to keep the cliffs and coastline framed correctly as the page scales.
+
+To ensure readability of the overlaid text, I added a semi-transparent dark overlay using the `::before` pseudo-element. The text is centered and uses high-contrast white for accessibility. This layout choice helps the hero section feel balanced while maintaining a strong visual impact.
