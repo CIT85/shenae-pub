@@ -306,6 +306,63 @@ aside.callout {
   color: #a7f8ff;
 }
 
+form {
+  max-width: 40rem;
+  margin: 0 auto 2rem;
+  padding: 1.5rem;
+  border: 1px solid #6cf5ff;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+legend {
+  font-family: "Bodoni Moda", serif;
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #6cf5ff;
+  background-color: #000;
+  color: #fff;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+button[type="submit"] {
+  padding: 0.6rem 1.4rem;
+  border-radius: 0.4rem;
+  border: 1px solid #0fffff;
+  background-color: #0fffff;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  filter: brightness(1.1);
+}
+
 /* MEDIA QUERIES */
 
 /* Medium screens: small tablets and up (601px–899px) */
