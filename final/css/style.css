@@ -363,6 +363,24 @@ button[type="submit"]:hover {
   filter: brightness(1.1);
 }
 
+/* HERO SECTION */
+.hero {
+  background-image: url("../img/hero-image-2000.jpeg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 60vh;              
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  color: #fff;                
+}
+
 /* MEDIA QUERIES */
 
 /* Medium screens: small tablets and up (601px–899px) */
