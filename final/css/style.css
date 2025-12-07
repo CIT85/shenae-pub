@@ -23,7 +23,6 @@ img {
 }
 
 
-
 main {
   max-width: 960px;
   margin: 1.5rem auto;                 
@@ -426,6 +425,13 @@ button[type="submit"]:hover {
   border-radius: 0.5rem;
   z-index: 2;
   display: inline-block;
+}
+
+/* ABOUT STYLING */
+.about {
+  border-left: 3px solid #35f0ff;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
 }
 
 /* MEDIA QUERIES */
